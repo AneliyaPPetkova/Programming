@@ -5,7 +5,7 @@ import turtle
 turtle.color('green')
 turtle.speed('slow')
 
-squareSideLength = input("Please, enter square side's length in cm:")
+squareSideLength = input('Please, enter square side\'s length in pixels:')
 
 for a in range(0,4):
     turtle.forward(int(squareSideLength))
