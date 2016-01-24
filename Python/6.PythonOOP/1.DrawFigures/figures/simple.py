@@ -86,9 +86,12 @@ class Polygon(Figure):
     def draw(self, turtle):
         side = 2*self.radius*math.sin(math.radians(180/self.n_sides))
         turtle.penup()
-        turtle.goto(self.center_x, self.center_y - self.radius)
+        turtle.setheading(270 + (360/self.n_sides)/2)  # point the turtle down
+        turtle.forward(self.radius)
         turtle.pendown()
+        turtle.setheading(0)
         turtle.color(self.color)
+
         for _ in range(self.n_sides):
             turtle.left(360/self.n_sides)
             turtle.forward(side)
