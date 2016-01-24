@@ -13,6 +13,20 @@ class Circle(Figure):
         turtle.color(self.color)
         turtle.circle(self.radius)
 
+class Pie(Figure):
+
+    def __init__(self, arg_degrees, radius, **kwargs):
+        super().__init__(**kwargs)
+        self.arg_degrees = arg_degrees
+        self.radius = radius
+
+    def draw(self, turtle):
+        turtle.penup()
+        turtle.goto(self.center_x, self.center_y - self.radius)  # From docs: The center is radius units left of the turtle;
+        turtle.pendown()
+        turtle.color(self.color)
+        turtle.circle(self.radius, self.arg_degrees)
+
 class Square(Figure):
 
     def __init__(self, side, **kwargs):
