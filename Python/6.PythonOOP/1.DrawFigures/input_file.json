@@ -3,5 +3,6 @@
     {"type": "square", "center_x": 0, "center_y": 0, "side": 100, "color": "red"},
     {"type": "square", "center_x": 0, "center_y": 0, "side": 200, "color": "blue"},
     {"type": "circle", "center_x": 0, "center_y": 0, "radius": 50, "color": "blue"},
-    {"type": "circle", "center_x": 0, "center_y": 0, "radius": 100, "color": "red"}
+    {"type": "circle", "center_x": 0, "center_y": 0, "radius": 100, "color": "red"},
+    {"type": "rectangle", "center_x": 0, "center_y": 0, "width": 400, "height":250, "color": "green"}
 ]
