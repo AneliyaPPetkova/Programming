@@ -71,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo_oop.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo_oop.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/demo_oop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57505286">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input_file.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="input_file.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/input_file.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
-              <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.26621923">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -117,8 +117,10 @@
         <entry file="file://$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/figures/simple.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-              <folding />
+              <caret line="90" column="32" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,8 +147,8 @@
         <option value="$PROJECT_DIR$/1.PythonIntroduction/7.ChessBoard.py" />
         <option value="$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/figures/base.py" />
         <option value="$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/demo_oop.py" />
-        <option value="$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/input_file.json" />
         <option value="$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/figures/simple.py" />
+        <option value="$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/input_file.json" />
       </list>
     </option>
   </component>
@@ -268,23 +270,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="5.StopAfterXNumberOfIterations" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.PythonIntroduction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.PythonIntroduction/5.StopAfterXNumberOfIterations.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="6.DrawFigure" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,6 +318,23 @@
       <module name="untitled" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/demo_oop.py" />
       <option name="PARAMETERS" value="input_file.json" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="simple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/figures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/figures/simple.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -460,18 +462,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.4.EndlessLoopDrawing" />
-      <item index="1" class="java.lang.String" itemvalue="Python.5.StopAfterXNumberOfIterations" />
-      <item index="2" class="java.lang.String" itemvalue="Python.6.DrawFigure" />
-      <item index="3" class="java.lang.String" itemvalue="Python.7.ChessBoard" />
-      <item index="4" class="java.lang.String" itemvalue="Python.demo_oop" />
+      <item index="1" class="java.lang.String" itemvalue="Python.6.DrawFigure" />
+      <item index="2" class="java.lang.String" itemvalue="Python.7.ChessBoard" />
+      <item index="3" class="java.lang.String" itemvalue="Python.demo_oop" />
+      <item index="4" class="java.lang.String" itemvalue="Python.simple" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.demo_oop" />
-        <item index="1" class="java.lang.String" itemvalue="Python.7.ChessBoard" />
-        <item index="2" class="java.lang.String" itemvalue="Python.6.DrawFigure" />
-        <item index="3" class="java.lang.String" itemvalue="Python.4.EndlessLoopDrawing" />
-        <item index="4" class="java.lang.String" itemvalue="Python.5.StopAfterXNumberOfIterations" />
+        <item index="1" class="java.lang.String" itemvalue="Python.simple" />
+        <item index="2" class="java.lang.String" itemvalue="Python.7.ChessBoard" />
+        <item index="3" class="java.lang.String" itemvalue="Python.6.DrawFigure" />
+        <item index="4" class="java.lang.String" itemvalue="Python.4.EndlessLoopDrawing" />
       </list>
     </recent_temporary>
   </component>
@@ -658,29 +660,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/input_file.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/figures/simple.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding />
+          <caret line="90" column="32" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/demo_oop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57505286">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.PythonOOP/1.DrawFigures/input_file.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26621923">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

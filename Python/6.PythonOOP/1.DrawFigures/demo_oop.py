@@ -3,13 +3,14 @@ import json
 import turtle
 
 from figures.base import Figure
-from figures.simple import Circle, Pie, Square, Rectangle
+from figures.simple import Circle, Pie, Square, Rectangle, Polygon
 
 FIGURE_TYPES = {
     "circle": Circle,
     "square": Square,
     "rectangle": Rectangle,
     "pie": Pie,
+    "polygon": Polygon
 }
 
 def main():

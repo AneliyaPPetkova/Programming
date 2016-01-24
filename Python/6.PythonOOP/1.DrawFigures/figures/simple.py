@@ -1,3 +1,5 @@
+import math
+
 from .base import Figure
 
 class Circle(Figure):
@@ -72,3 +74,22 @@ class Rectangle(Figure):
             turtle.left(90)
             turtle.forward(self.width)
             turtle.left(90)
+
+class Polygon(Figure):
+
+    def __init__(self, radius, n_sides, **kwargs):
+        super().__init__(**kwargs)
+        self.radius = radius
+        self.n_sides = n_sides
+
+
+    def draw(self, turtle):
+        side = 2*self.radius*math.sin(math.radians(180/self.n_sides))
+        turtle.penup()
+        turtle.goto(self.center_x, self.center_y - self.radius)
+        turtle.pendown()
+        turtle.color(self.color)
+        for _ in range(self.n_sides):
+            turtle.left(360/self.n_sides)
+            turtle.forward(side)
+
