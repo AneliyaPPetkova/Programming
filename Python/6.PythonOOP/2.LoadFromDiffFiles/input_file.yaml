@@ -1,0 +1,29 @@
+- type: square
+  center_x: 0
+  center_y: 0
+  side: 10
+  color: black
+
+- type: square
+  center_x: 0
+  center_y: 0
+  side: 150
+  color: yellow
+
+- type: square
+  center_x: 0
+  center_y: 0
+  side: 220
+  color: blue
+
+- type: circle
+  center_x: 0
+  center_y: 0
+  radius: 70
+  color: green
+
+- type: circle
+  center_x: 0
+  center_y: 0
+  radius: 100
+  color: red
