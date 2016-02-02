@@ -15,11 +15,14 @@ print(prices)
 if len(prices) >= 4:
     maxPrice = max(prices)
     print("The Max price is {}".format(maxPrice))
-    prices.remove(maxPrice)
 
     minPrice = min(prices)
     print("The Min price is {}".format(minPrice))
-    prices.remove(minPrice)
+    temp = list(prices)
+    for p in temp:
+        if p == maxPrice or p == minPrice:
+            prices.remove(p)
+
     print(prices)
     if len(prices) > 1:
         sumPrice = 0
