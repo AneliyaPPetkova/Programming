@@ -5,7 +5,7 @@ from datetime import date
 
 FILENAME = './CommonResources/sales.csv'
 sales = {}
-max = 0.0
+maxProfit = 0.0
 dateWithMaxSales = date.today()
 
 with open(FILENAME) as f:
@@ -20,8 +20,8 @@ with open(FILENAME) as f:
             sales['{}'.format(salesDate)] += float(sale[1])
 
     for key, value in sales.items():
-        if value > max:
-            max = value
+        if value > maxProfit:
+            maxProfit = value
             dateWithMaxSales = key
 print(sales)
-print("The most profitable day is {} with {} profit.".format(dateWithMaxSales, max))
+print("The most profitable day is {} with {} profit.".format(dateWithMaxSales, maxProfit))
