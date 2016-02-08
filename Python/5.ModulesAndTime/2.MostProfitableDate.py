@@ -19,9 +19,9 @@ with open(FILENAME) as f:
         else:
             sales['{}'.format(salesDate)] += float(sale[1])
 
-    for key, value in sales.items():
-        if value > maxProfit:
-            maxProfit = value
-            dateWithMaxSales = key
-print(sales)
+for key, value in sales.items():
+    if value > maxProfit:
+        maxProfit = value
+        dateWithMaxSales = key
+
 print("The most profitable day is {} with {} profit.".format(dateWithMaxSales, maxProfit))
