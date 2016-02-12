@@ -14,6 +14,7 @@ def main():
     print_sales_summary(sales)
     print_sum_of_sales_by_category(catalog, sales)
     print_sum_of_sales_by_city(sales)
+    print_sum_of_sales_by_datetime(sales)
 
 
 def print_sales_summary(input_data: list):
@@ -69,6 +70,28 @@ def print_sum_of_sales_by_city(sales: list):
         print("{}: {:.2f} €".format(key, value))
         count += 1
 
+
+def print_sum_of_sales_by_datetime(sales: list):
+    sales_by_datetime = {}
+    for sale in sales:
+        temp = sale.sale_datetime
+        # dayAndTime = temp.strftime('%Y-%m-%d %H:%M')
+        sales_hour = str(temp.hour)
+        sales_date = temp.date()
+        dayAndTime = '{} {}:00'.format(sales_date, sales_hour)
+        if dayAndTime not in sales_by_datetime:
+            sales_by_datetime[dayAndTime] = 0.0
+        sales_by_datetime[dayAndTime] += sale.price
+    sorted_dict = OrderedDict(sorted(sales_by_datetime.items(), key=lambda x: x[1], reverse=True))
+    count = 0
+    print("""
+Часове с най-голяма сума продажби (top 5)
+---------------------""")
+    for key, value in sorted_dict.items():
+        if count == 5:
+            break
+        print("{} : {:.2f} €".format(key, value))
+        count += 1
 
 if __name__ == "__main__":
     sys.exit(main())
