@@ -2,7 +2,6 @@ import sys
 from sales import load_sales_from_file
 from product import load_catalog_from_file
 from collections import OrderedDict
-from datetime import datetime, timezone
 
 def main():
     salesFile = './CommonResources/sales-10K.csv'
@@ -60,15 +59,21 @@ def print_sum_of_sales_by_city(sales: list):
             sales_by_city[sale.city] = 0.0
         sales_by_city[sale.city] += sale.price
     sorted_dict = OrderedDict(sorted(sales_by_city.items(), key=lambda x: x[1], reverse=True))
+    max_value = max(sorted_dict.items(), key=lambda x:x[1])[1]
     count = 0
     print("""
 Сума на продажби по градове (top 5)
 ---------------------""")
     for key, value in sorted_dict.items():
+        test = print_stars(value, max_value)
         if count == 5:
             break
-        print("{}: {:.2f} €".format(key, value))
         count += 1
+        print("{:15s}: ".format(key, value), end="")
+        for i in range(0, round(test)):
+            print('*', end="")
+        print("{:.2f} €".format(value))
+
 
 
 def print_sum_of_sales_by_datetime(sales: list):
@@ -92,6 +97,12 @@ def print_sum_of_sales_by_datetime(sales: list):
             break
         print("{} : {:.2f} €".format(key, value))
         count += 1
+
+
+def print_stars(price_value: float, max_value: float):
+    max_stars = 30.0
+    number_of_stars = (price_value/max_value)*max_stars
+    return number_of_stars
 
 if __name__ == "__main__":
     sys.exit(main())
