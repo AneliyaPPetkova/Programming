@@ -43,21 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5.LowestPrice.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/5.LowestPrice.py">
+      <file leaf-file-name="1.MostCommonSymbol.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/1.MostCommonSymbol.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="41" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/CommonResources/products.txt">
+      <file leaf-file-name="5.LowestPrice.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/5.LowestPrice.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -73,21 +73,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2.AveragePriceByGroup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4.ExceptionsAndFiles/2.AveragePriceByGroup.py">
+      <file leaf-file-name="6.TimeToArrival.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/6.TimeToArrival.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="4" selection-end-line="23" selection-end-column="41" />
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6.TimeToArrival.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/6.TimeToArrival.py">
+      <file leaf-file-name="1.Paint.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12.ExamPreparation2/1.Paint.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="26" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.CesarCode.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/12.ExamPreparation2/2.CesarCode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.78558224">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -113,18 +123,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sales.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7.SupermarketsDataAnalysis/sales.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -137,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/3.DrawSquare.py" />
-        <option value="$PROJECT_DIR$/2 Lecture/3.Initials.py" />
         <option value="$PROJECT_DIR$/1.PythonIntroduction/3.DrawSquare.py" />
         <option value="$PROJECT_DIR$/1.PythonIntroduction/4.EndlessLoopDrawing.py" />
         <option value="$PROJECT_DIR$/1.PythonIntroduction/5.StopAfterXNumberOfIterations.py" />
@@ -188,6 +184,8 @@
         <option value="$PROJECT_DIR$/11.ExamPreparation1/CommonResources/highway.txt" />
         <option value="$PROJECT_DIR$/11.ExamPreparation1/6.TimeToArrival.py" />
         <option value="$PROJECT_DIR$/11.ExamPreparation1/CommonResources/highway2" />
+        <option value="$PROJECT_DIR$/12.ExamPreparation2/1.Paint.py" />
+        <option value="$PROJECT_DIR$/12.ExamPreparation2/2.CesarCode.py" />
       </list>
     </option>
   </component>
@@ -264,7 +262,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="4.ExceptionsAndFiles" />
+              <option name="myItemId" value="12.ExamPreparation2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python Programming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="11.ExamPreparation1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,41 +302,7 @@
       <recent name="D:\GitHub\Programming\Python\6.PythonOOP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.6.TimeToArrival">
-    <configuration default="false" name="2.AreaOfTriangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11.ExamPreparation1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11.ExamPreparation1/2.AreaOfTriangle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="3.CurrencyConverter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11.ExamPreparation1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11.ExamPreparation1/3.CurrencyConverter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.2.CesarCode">
     <configuration default="false" name="4.SizesOfMedicinePackages" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -372,6 +350,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11.ExamPreparation1/6.TimeToArrival.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="1.Paint" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12.ExamPreparation2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12.ExamPreparation2/1.Paint.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="2.CesarCode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12.ExamPreparation2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12.ExamPreparation2/2.CesarCode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -499,19 +511,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.2.AreaOfTriangle" />
-      <item index="1" class="java.lang.String" itemvalue="Python.3.CurrencyConverter" />
-      <item index="2" class="java.lang.String" itemvalue="Python.4.SizesOfMedicinePackages" />
-      <item index="3" class="java.lang.String" itemvalue="Python.5.LowestPrice" />
-      <item index="4" class="java.lang.String" itemvalue="Python.6.TimeToArrival" />
+      <item index="0" class="java.lang.String" itemvalue="Python.4.SizesOfMedicinePackages" />
+      <item index="1" class="java.lang.String" itemvalue="Python.5.LowestPrice" />
+      <item index="2" class="java.lang.String" itemvalue="Python.6.TimeToArrival" />
+      <item index="3" class="java.lang.String" itemvalue="Python.1.Paint" />
+      <item index="4" class="java.lang.String" itemvalue="Python.2.CesarCode" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.6.TimeToArrival" />
-        <item index="1" class="java.lang.String" itemvalue="Python.5.LowestPrice" />
-        <item index="2" class="java.lang.String" itemvalue="Python.4.SizesOfMedicinePackages" />
-        <item index="3" class="java.lang.String" itemvalue="Python.3.CurrencyConverter" />
-        <item index="4" class="java.lang.String" itemvalue="Python.2.AreaOfTriangle" />
+        <item index="0" class="java.lang.String" itemvalue="Python.2.CesarCode" />
+        <item index="1" class="java.lang.String" itemvalue="Python.1.Paint" />
+        <item index="2" class="java.lang.String" itemvalue="Python.6.TimeToArrival" />
+        <item index="3" class="java.lang.String" itemvalue="Python.5.LowestPrice" />
+        <item index="4" class="java.lang.String" itemvalue="Python.4.SizesOfMedicinePackages" />
       </list>
     </recent_temporary>
   </component>
@@ -539,9 +551,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1280" height="1040" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27697262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27697262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819384" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3314978" sideWeight="0.5029985" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -603,7 +615,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="24" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -616,20 +628,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/6.PythonOOP/2.LoadFromDiffFiles/input_file.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.PythonIntroduction/7.ChessBoard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2.StringsAndDataStructures/3.Initials.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -848,14 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/1.MostCommonSymbol.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/CommonResources/amounts.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -912,22 +902,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7.SupermarketsDataAnalysis/data_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="62" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/7.SupermarketsDataAnalysis/sales.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="30" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -991,7 +971,41 @@
     <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/6.TimeToArrival.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="26" />
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.ExamPreparation2/1.Paint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.SupermarketsDataAnalysis/data_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="62" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/1.MostCommonSymbol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.ExamPreparation2/2.CesarCode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78558224">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding />
         </state>
       </provider>
