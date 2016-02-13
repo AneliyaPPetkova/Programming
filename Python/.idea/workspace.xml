@@ -33,16 +33,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2.AreaOfTriangle.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/2.AreaOfTriangle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="7" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="3.CurrencyConverter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/3.CurrencyConverter.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,21 +43,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.SizesOfMedicinePackages.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="4.SizesOfMedicinePackages.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/4.SizesOfMedicinePackages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0055453">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="packages.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/CommonResources/packages.txt">
+      <file leaf-file-name="5.LowestPrice.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/5.LowestPrice.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/CommonResources/products.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -107,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/7.SupermarketsDataAnalysis/sales.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="25" selection-end-column="9" />
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="30" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -184,6 +184,8 @@
         <option value="$PROJECT_DIR$/11.ExamPreparation1/CommonResources/packages.txt" />
         <option value="$PROJECT_DIR$/11.ExamPreparation1/medicine.py" />
         <option value="$PROJECT_DIR$/11.ExamPreparation1/4.SizesOfMedicinePackages.py" />
+        <option value="$PROJECT_DIR$/11.ExamPreparation1/CommonResources/products.txt" />
+        <option value="$PROJECT_DIR$/11.ExamPreparation1/5.LowestPrice.py" />
       </list>
     </option>
   </component>
@@ -278,6 +280,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python Programming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="11.ExamPreparation1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommonResources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -300,24 +320,7 @@
       <recent name="D:\GitHub\Programming\Python\6.PythonOOP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.4.SizesOfMedicinePackages">
-    <configuration default="false" name="data_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7.SupermarketsDataAnalysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7.SupermarketsDataAnalysis/data_analysis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.5.LowestPrice">
     <configuration default="false" name="1.MostCommonSymbol" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -382,6 +385,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11.ExamPreparation1/4.SizesOfMedicinePackages.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="5.LowestPrice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11.ExamPreparation1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11.ExamPreparation1/5.LowestPrice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -509,19 +529,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.data_analysis" />
-      <item index="1" class="java.lang.String" itemvalue="Python.1.MostCommonSymbol" />
-      <item index="2" class="java.lang.String" itemvalue="Python.2.AreaOfTriangle" />
-      <item index="3" class="java.lang.String" itemvalue="Python.3.CurrencyConverter" />
-      <item index="4" class="java.lang.String" itemvalue="Python.4.SizesOfMedicinePackages" />
+      <item index="0" class="java.lang.String" itemvalue="Python.1.MostCommonSymbol" />
+      <item index="1" class="java.lang.String" itemvalue="Python.2.AreaOfTriangle" />
+      <item index="2" class="java.lang.String" itemvalue="Python.3.CurrencyConverter" />
+      <item index="3" class="java.lang.String" itemvalue="Python.4.SizesOfMedicinePackages" />
+      <item index="4" class="java.lang.String" itemvalue="Python.5.LowestPrice" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.4.SizesOfMedicinePackages" />
-        <item index="1" class="java.lang.String" itemvalue="Python.3.CurrencyConverter" />
-        <item index="2" class="java.lang.String" itemvalue="Python.2.AreaOfTriangle" />
-        <item index="3" class="java.lang.String" itemvalue="Python.1.MostCommonSymbol" />
-        <item index="4" class="java.lang.String" itemvalue="Python.data_analysis" />
+        <item index="0" class="java.lang.String" itemvalue="Python.5.LowestPrice" />
+        <item index="1" class="java.lang.String" itemvalue="Python.4.SizesOfMedicinePackages" />
+        <item index="2" class="java.lang.String" itemvalue="Python.3.CurrencyConverter" />
+        <item index="3" class="java.lang.String" itemvalue="Python.2.AreaOfTriangle" />
+        <item index="4" class="java.lang.String" itemvalue="Python.1.MostCommonSymbol" />
       </list>
     </recent_temporary>
   </component>
@@ -608,7 +628,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="22" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -621,20 +641,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/6.PythonOOP/2.LoadFromDiffFiles/figures/simple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6.PythonOOP/2.LoadFromDiffFiles/loaders/loader_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6.PythonOOP/2.LoadFromDiffFiles/loaders/json_loader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -962,16 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7.SupermarketsDataAnalysis/sales.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/7.SupermarketsDataAnalysis/data_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -979,6 +975,32 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.SupermarketsDataAnalysis/sales.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/4.SizesOfMedicinePackages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/CommonResources/products.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -990,10 +1012,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/4.SizesOfMedicinePackages.py">
+    <entry file="file://$PROJECT_DIR$/11.ExamPreparation1/5.LowestPrice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0055453">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="29" />
           <folding />
         </state>
       </provider>
