@@ -13,7 +13,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuadraticEquationRoots", "Q
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AverageSum", "AverageSum\AverageSum.vcxproj", "{74596A4E-5C0E-4C75-AA2A-323FB68089EA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TimeDifferenceInDaysHoursMinAndSec", "TimeDifferenceInDaysHoursMinAndSec\TimeDifferenceInDaysHoursMinAndSec.vcxproj", "{7F2ACB75-65BC-4DD2-8555-1C5217FE93AB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.TimeDifferenceInDaysHoursMinAndSec", "TimeDifferenceInDaysHoursMinAndSec\TimeDifferenceInDaysHoursMinAndSec.vcxproj", "{7F2ACB75-65BC-4DD2-8555-1C5217FE93AB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.TriangleArea", "2.TriangleArea\2.TriangleArea.vcxproj", "{A82F987A-A9C3-409A-BA79-612862B035C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,14 @@ Global
 		{7F2ACB75-65BC-4DD2-8555-1C5217FE93AB}.Release|x64.Build.0 = Release|x64
 		{7F2ACB75-65BC-4DD2-8555-1C5217FE93AB}.Release|x86.ActiveCfg = Release|Win32
 		{7F2ACB75-65BC-4DD2-8555-1C5217FE93AB}.Release|x86.Build.0 = Release|Win32
+		{A82F987A-A9C3-409A-BA79-612862B035C2}.Debug|x64.ActiveCfg = Debug|x64
+		{A82F987A-A9C3-409A-BA79-612862B035C2}.Debug|x64.Build.0 = Debug|x64
+		{A82F987A-A9C3-409A-BA79-612862B035C2}.Debug|x86.ActiveCfg = Debug|Win32
+		{A82F987A-A9C3-409A-BA79-612862B035C2}.Debug|x86.Build.0 = Debug|Win32
+		{A82F987A-A9C3-409A-BA79-612862B035C2}.Release|x64.ActiveCfg = Release|x64
+		{A82F987A-A9C3-409A-BA79-612862B035C2}.Release|x64.Build.0 = Release|x64
+		{A82F987A-A9C3-409A-BA79-612862B035C2}.Release|x86.ActiveCfg = Release|Win32
+		{A82F987A-A9C3-409A-BA79-612862B035C2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
