@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	int a, P, S;
+	float a, P, S;
 
 	cout << "a = ";
 	cin >> a;
