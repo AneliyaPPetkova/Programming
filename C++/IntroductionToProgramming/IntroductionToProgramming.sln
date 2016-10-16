@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaxFromThreeNumbers", "MaxF
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuadraticEquationRoots", "QuadraticEquationRoots\QuadraticEquationRoots.vcxproj", "{ADFB54D6-B795-499B-B4C3-8AF597BB6E2A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AverageSum", "AverageSum\AverageSum.vcxproj", "{74596A4E-5C0E-4C75-AA2A-323FB68089EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{ADFB54D6-B795-499B-B4C3-8AF597BB6E2A}.Release|x64.Build.0 = Release|x64
 		{ADFB54D6-B795-499B-B4C3-8AF597BB6E2A}.Release|x86.ActiveCfg = Release|Win32
 		{ADFB54D6-B795-499B-B4C3-8AF597BB6E2A}.Release|x86.Build.0 = Release|Win32
+		{74596A4E-5C0E-4C75-AA2A-323FB68089EA}.Debug|x64.ActiveCfg = Debug|x64
+		{74596A4E-5C0E-4C75-AA2A-323FB68089EA}.Debug|x64.Build.0 = Debug|x64
+		{74596A4E-5C0E-4C75-AA2A-323FB68089EA}.Debug|x86.ActiveCfg = Debug|Win32
+		{74596A4E-5C0E-4C75-AA2A-323FB68089EA}.Debug|x86.Build.0 = Debug|Win32
+		{74596A4E-5C0E-4C75-AA2A-323FB68089EA}.Release|x64.ActiveCfg = Release|x64
+		{74596A4E-5C0E-4C75-AA2A-323FB68089EA}.Release|x64.Build.0 = Release|x64
+		{74596A4E-5C0E-4C75-AA2A-323FB68089EA}.Release|x86.ActiveCfg = Release|Win32
+		{74596A4E-5C0E-4C75-AA2A-323FB68089EA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
