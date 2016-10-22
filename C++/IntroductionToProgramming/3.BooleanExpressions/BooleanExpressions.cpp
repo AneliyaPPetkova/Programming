@@ -3,6 +3,7 @@ using namespace std;
 
 bool pDividesTo4Or7(int p);
 bool theQuadraticEquationHasNoRoots(float a, float b, float c);
+bool isThePointInsideTheCircle(float a, float b, float c, float d, float r);
 
 int main()
 {
@@ -23,6 +24,21 @@ int main()
 	cout << "c = ";
 	cin >> c;
 	cout << "Result: " << boolalpha << theQuadraticEquationHasNoRoots(a, b, c) << endl << "\n";
+
+	//b)Find if a quadratic equation has no roots
+	float aXCoord, bYCoord, circleXCoord, circleYCoord, radius;
+	cout << "c)Find if a point A with coordinates(a,b) is inside the circle with center O(c,d) and radius r: " << endl;
+	cout << "a = ";
+	cin >> aXCoord;
+	cout << "b = ";
+	cin >> bYCoord;
+	cout << "c = ";
+	cin >> circleXCoord;
+	cout << "d = ";
+	cin >> circleYCoord;
+	cout << "r = ";
+	cin >> radius;
+	cout << "Result: " << boolalpha << isThePointInsideTheCircle(aXCoord, bYCoord, circleXCoord, circleYCoord, radius) << endl << "\n";
 
 	return 0;
 }
@@ -52,6 +68,26 @@ bool theQuadraticEquationHasNoRoots(float a, float b, float c)
 	else
 	{
 		result = true;
+	}
+
+	return result;
+}
+
+//c)Find if a point A with coordinates(a,b) is inside the circle with center O(c,d) and radius r.
+bool isThePointInsideTheCircle(float a, float b, float c, float d, float r)
+{
+	bool result;
+	float distFromOtoA;
+
+	distFromOtoA = sqrt((a - c)*(a - c) + (b - d)*(b - d));
+
+	if (distFromOtoA <= r)
+	{
+		result = true;
+	}
+	else
+	{
+		result = false;
 	}
 
 	return result;
