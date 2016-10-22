@@ -4,6 +4,7 @@ using namespace std;
 bool pDividesTo4Or7(int p);
 bool theQuadraticEquationHasNoRoots(float a, float b, float c);
 bool isThePointInsideTheCircle(float a, float b, float c, float d, float r);
+bool isThePointInsideThirdQuadrantAndInTheCircle(float a, float b);
 
 int main()
 {
@@ -25,7 +26,7 @@ int main()
 	cin >> c;
 	cout << "Result: " << boolalpha << theQuadraticEquationHasNoRoots(a, b, c) << endl << "\n";
 
-	//b)Find if a quadratic equation has no roots
+	//c)Find if a point A with coordinates(a,b) is inside the circle with center O(c,d) and radius r:
 	float aXCoord, bYCoord, circleXCoord, circleYCoord, radius;
 	cout << "c)Find if a point A with coordinates(a,b) is inside the circle with center O(c,d) and radius r: " << endl;
 	cout << "a = ";
@@ -40,6 +41,14 @@ int main()
 	cin >> radius;
 	cout << "Result: " << boolalpha << isThePointInsideTheCircle(aXCoord, bYCoord, circleXCoord, circleYCoord, radius) << endl << "\n";
 
+	//d)Find if a point belongs to the third quadrant of a circle with center (0,0) and radius 5.
+	float firstCoord, secondCoord;
+	cout << "d)Find if a point belongs to the third quadrant of a circle with center (0,0) and radius 5: " << endl;
+	cout << "a = ";
+	cin >> firstCoord;
+	cout << "b = ";
+	cin >> secondCoord;
+	cout << "Result: " << boolalpha << isThePointInsideThirdQuadrantAndInTheCircle(firstCoord, secondCoord) << endl << "\n";
 	return 0;
 }
 
@@ -82,6 +91,27 @@ bool isThePointInsideTheCircle(float a, float b, float c, float d, float r)
 	distFromOtoA = sqrt((a - c)*(a - c) + (b - d)*(b - d));
 
 	if (distFromOtoA <= r)
+	{
+		result = true;
+	}
+	else
+	{
+		result = false;
+	}
+
+	return result;
+}
+
+//d)Find if a point belongs to the third quadrant of a circle with center (0,0) and radius 5.
+bool isThePointInsideThirdQuadrantAndInTheCircle(float a, float b)
+{
+	bool result;
+	float distFromOtoA;
+	int r = 5;
+
+	distFromOtoA = sqrt(a*a + b*b);
+
+	if (a < 0 && b < 0 && distFromOtoA <= r)
 	{
 		result = true;
 	}
