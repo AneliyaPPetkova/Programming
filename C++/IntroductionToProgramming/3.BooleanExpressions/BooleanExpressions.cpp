@@ -6,6 +6,7 @@ bool theQuadraticEquationHasNoRoots(float a, float b, float c);
 bool isThePointInsideTheCircle(float a, float b, float c, float d, float r);
 bool isThePointInsideThirdQuadrantAndInTheCircle(float a, float b);
 bool isThePointInsideTheDonut(float a, float b);
+bool findIfXBelongsToTheSegment01(float x);
 
 int main()
 {
@@ -59,6 +60,13 @@ int main()
 	cout << "b = ";
 	cin >> coordY;
 	cout << "Result: " << boolalpha << isThePointInsideTheDonut(coordX, coordY) << endl << "\n";
+
+	//f)Find if x belongs to the segment [0,1].
+	float x;
+	cout << "f)Find if x belongs to the segment [0,1]: " << endl;
+	cout << "x = ";
+	cin >> x;
+	cout << "Result: " << boolalpha << findIfXBelongsToTheSegment01(x) << endl << "\n";
 
 	return 0;
 }
@@ -137,7 +145,7 @@ bool isThePointInsideThirdQuadrantAndInTheCircle(float a, float b)
 //e)Find if a point belongs to a donut with center (0,0) and radiuses 5 and 10.
 bool isThePointInsideTheDonut(float a, float b)
 {
-	bool result;
+	bool result = false;
 	float distFromOtoA;
 	int r1 = 5;
 	int r2 = 10;
@@ -152,6 +160,16 @@ bool isThePointInsideTheDonut(float a, float b)
 	{
 		result = false;
 	}
+
+	return result;
+}
+
+//f)Find if x belongs to the segment [0,1]
+bool findIfXBelongsToTheSegment01(float x)
+{
+	bool result = false;
+
+	result = x >= 0 && x <= 1;
 
 	return result;
 }
