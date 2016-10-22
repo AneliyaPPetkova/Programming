@@ -9,6 +9,7 @@ bool isThePointInsideTheDonut(float a, float b);
 bool findIfXBelongsToTheSegment01(float x);
 bool findIfXEqualToMaxNumber(float x, float a, float b, float c);
 bool findIfNumberContains7(int number);
+bool findIfNumberHasDiffDigits(int number);
 
 int main()
 {
@@ -89,6 +90,13 @@ int main()
 	cout << "number = ";
 	cin >> number;
 	cout << "Result: " << boolalpha << findIfNumberContains7(number) << endl << "\n";
+
+	//n)Find if the positive integer number p has different digits..
+	float n;
+	cout << "n)Find if the positive integer number p has different digits.: " << endl;
+	cout << "n = ";
+	cin >> n;
+	cout << "Result: " << boolalpha << findIfNumberHasDiffDigits(n) << endl << "\n";
 
 	return 0;
 }
@@ -236,6 +244,35 @@ bool findIfNumberContains7(int number)
 			result = true;
 			break;
 		}
+	}
+
+	return result;
+}
+
+//n)Find if the positive integer number p has different digits.
+bool findIfNumberHasDiffDigits(int number)
+{
+	bool result = true;
+	int temp, tempNumber, digit;
+
+	while (number > 0)
+	{
+		temp = number % 10;
+		tempNumber = number / 10;
+		number = number / 10;
+
+		while (tempNumber > 0)
+		{
+			digit = tempNumber % 10;
+			tempNumber = tempNumber / 10;
+
+			if (digit == temp)
+			{
+				cout << digit << temp;
+				result = false;
+				break;
+			}
+		}	
 	}
 
 	return result;
