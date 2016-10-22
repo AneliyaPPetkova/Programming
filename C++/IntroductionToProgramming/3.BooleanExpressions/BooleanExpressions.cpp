@@ -5,6 +5,7 @@ bool pDividesTo4Or7(int p);
 bool theQuadraticEquationHasNoRoots(float a, float b, float c);
 bool isThePointInsideTheCircle(float a, float b, float c, float d, float r);
 bool isThePointInsideThirdQuadrantAndInTheCircle(float a, float b);
+bool isThePointInsideTheDonut(float a, float b);
 
 int main()
 {
@@ -49,6 +50,16 @@ int main()
 	cout << "b = ";
 	cin >> secondCoord;
 	cout << "Result: " << boolalpha << isThePointInsideThirdQuadrantAndInTheCircle(firstCoord, secondCoord) << endl << "\n";
+
+	//e)Find if a point belongs to a donut with center (0,0) and radiuses 5 and 10.
+	float coordX, coordY;
+	cout << "e)Find if a point belongs to a donut with center (0,0) and radiuses 5 and 10: " << endl;
+	cout << "a = ";
+	cin >> coordX;
+	cout << "b = ";
+	cin >> coordY;
+	cout << "Result: " << boolalpha << isThePointInsideTheDonut(coordX, coordY) << endl << "\n";
+
 	return 0;
 }
 
@@ -112,6 +123,28 @@ bool isThePointInsideThirdQuadrantAndInTheCircle(float a, float b)
 	distFromOtoA = sqrt(a*a + b*b);
 
 	if (a < 0 && b < 0 && distFromOtoA <= r)
+	{
+		result = true;
+	}
+	else
+	{
+		result = false;
+	}
+
+	return result;
+}
+
+//e)Find if a point belongs to a donut with center (0,0) and radiuses 5 and 10.
+bool isThePointInsideTheDonut(float a, float b)
+{
+	bool result;
+	float distFromOtoA;
+	int r1 = 5;
+	int r2 = 10;
+
+	distFromOtoA = sqrt(a*a + b*b);
+
+	if (distFromOtoA > r1 && distFromOtoA < r2)
 	{
 		result = true;
 	}
