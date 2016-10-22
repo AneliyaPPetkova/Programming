@@ -8,6 +8,7 @@ bool isThePointInsideThirdQuadrantAndInTheCircle(float a, float b);
 bool isThePointInsideTheDonut(float a, float b);
 bool findIfXBelongsToTheSegment01(float x);
 bool findIfXEqualToMaxNumber(float x, float a, float b, float c);
+bool findIfNumberContains7(int number);
 
 int main()
 {
@@ -81,6 +82,13 @@ int main()
 	cout << "n3 = ";
 	cin >> n3;
 	cout << "Result: " << boolalpha << findIfXEqualToMaxNumber(xNumber, n1, n2, n3) << endl << "\n";
+
+	//m)Find if the positive integer number p contains the number 7.
+	float number;
+	cout << "m)Find if the positive integer number p contains the number 7: " << endl;
+	cout << "number = ";
+	cin >> number;
+	cout << "Result: " << boolalpha << findIfNumberContains7(number) << endl << "\n";
 
 	return 0;
 }
@@ -208,6 +216,27 @@ bool findIfXEqualToMaxNumber(float x, float a, float b, float c)
 	}
 
 	result = (x == maxNum);
+
+	return result;
+}
+
+//m)Find if the positive integer number p contains the number 7
+bool findIfNumberContains7(int number)
+{
+	bool result = false;
+	int temp;
+
+	while (number > 0)
+	{
+		temp = number % 10;
+		number = number / 10;
+
+		if (temp == 7)
+		{
+			result = true;
+			break;
+		}
+	}
 
 	return result;
 }
