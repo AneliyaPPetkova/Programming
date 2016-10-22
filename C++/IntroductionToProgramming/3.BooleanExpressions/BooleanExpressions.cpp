@@ -7,6 +7,7 @@ bool isThePointInsideTheCircle(float a, float b, float c, float d, float r);
 bool isThePointInsideThirdQuadrantAndInTheCircle(float a, float b);
 bool isThePointInsideTheDonut(float a, float b);
 bool findIfXBelongsToTheSegment01(float x);
+bool findIfXEqualToMaxNumber(float x, float a, float b, float c);
 
 int main()
 {
@@ -67,6 +68,19 @@ int main()
 	cout << "x = ";
 	cin >> x;
 	cout << "Result: " << boolalpha << findIfXBelongsToTheSegment01(x) << endl << "\n";
+
+	//g)Find if x is equal to max from three numbers.
+	float xNumber, n1, n2, n3;
+	cout << "g)Find if x is equal to max from three numbers: " << endl;
+	cout << "x = ";
+	cin >> xNumber;
+	cout << "n1 = ";
+	cin >> n1;
+	cout << "n2 = ";
+	cin >> n2;
+	cout << "n3 = ";
+	cin >> n3;
+	cout << "Result: " << boolalpha << findIfXEqualToMaxNumber(xNumber, n1, n2, n3) << endl << "\n";
 
 	return 0;
 }
@@ -170,6 +184,30 @@ bool findIfXBelongsToTheSegment01(float x)
 	bool result = false;
 
 	result = x >= 0 && x <= 1;
+
+	return result;
+}
+
+//g)Find if x is equal to max from three numbers
+bool findIfXEqualToMaxNumber(float x, float a, float b, float c)
+{
+	bool result = false;
+	float maxNum;
+
+	if (a >= b && a >= c)
+	{
+		maxNum = a;
+	}
+	else if (b >= a && b >= c)
+	{
+		maxNum = b;
+	}
+	else
+	{
+		maxNum = c;
+	}
+
+	result = (x == maxNum);
 
 	return result;
 }
