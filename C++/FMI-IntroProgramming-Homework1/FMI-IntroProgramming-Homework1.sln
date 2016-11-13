@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.BGIDNumber", "2.BGIDNumbe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.IntToHexCheckIfSameChars", "3.IntToHexCheckIfSameChars\3.IntToHexCheckIfSameChars.vcxproj", "{B14509EE-6DEF-460B-8D1A-E8491CFC3FDC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.Checkmate", "4.Checkmate\4.Checkmate.vcxproj", "{6634BB1F-E931-4627-A27F-08E09E1600D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{B14509EE-6DEF-460B-8D1A-E8491CFC3FDC}.Release|x64.Build.0 = Release|x64
 		{B14509EE-6DEF-460B-8D1A-E8491CFC3FDC}.Release|x86.ActiveCfg = Release|Win32
 		{B14509EE-6DEF-460B-8D1A-E8491CFC3FDC}.Release|x86.Build.0 = Release|Win32
+		{6634BB1F-E931-4627-A27F-08E09E1600D4}.Debug|x64.ActiveCfg = Debug|x64
+		{6634BB1F-E931-4627-A27F-08E09E1600D4}.Debug|x64.Build.0 = Debug|x64
+		{6634BB1F-E931-4627-A27F-08E09E1600D4}.Debug|x86.ActiveCfg = Debug|Win32
+		{6634BB1F-E931-4627-A27F-08E09E1600D4}.Debug|x86.Build.0 = Debug|Win32
+		{6634BB1F-E931-4627-A27F-08E09E1600D4}.Release|x64.ActiveCfg = Release|x64
+		{6634BB1F-E931-4627-A27F-08E09E1600D4}.Release|x64.Build.0 = Release|x64
+		{6634BB1F-E931-4627-A27F-08E09E1600D4}.Release|x86.ActiveCfg = Release|Win32
+		{6634BB1F-E931-4627-A27F-08E09E1600D4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
