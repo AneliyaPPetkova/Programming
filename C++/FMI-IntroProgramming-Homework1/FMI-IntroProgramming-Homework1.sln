@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.Darts", "5.Darts\5.Darts.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.Rectangles", "6.Rectangles\6.Rectangles.vcxproj", "{8A5935F9-0BCF-499D-8173-81E2588C0B69}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.YinYang", "7.YinYang\7.YinYang.vcxproj", "{DD3257C8-9210-43E0-8092-C99EC5BF6688}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{8A5935F9-0BCF-499D-8173-81E2588C0B69}.Release|x64.Build.0 = Release|x64
 		{8A5935F9-0BCF-499D-8173-81E2588C0B69}.Release|x86.ActiveCfg = Release|Win32
 		{8A5935F9-0BCF-499D-8173-81E2588C0B69}.Release|x86.Build.0 = Release|Win32
+		{DD3257C8-9210-43E0-8092-C99EC5BF6688}.Debug|x64.ActiveCfg = Debug|x64
+		{DD3257C8-9210-43E0-8092-C99EC5BF6688}.Debug|x64.Build.0 = Debug|x64
+		{DD3257C8-9210-43E0-8092-C99EC5BF6688}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD3257C8-9210-43E0-8092-C99EC5BF6688}.Debug|x86.Build.0 = Debug|Win32
+		{DD3257C8-9210-43E0-8092-C99EC5BF6688}.Release|x64.ActiveCfg = Release|x64
+		{DD3257C8-9210-43E0-8092-C99EC5BF6688}.Release|x64.Build.0 = Release|x64
+		{DD3257C8-9210-43E0-8092-C99EC5BF6688}.Release|x86.ActiveCfg = Release|Win32
+		{DD3257C8-9210-43E0-8092-C99EC5BF6688}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
