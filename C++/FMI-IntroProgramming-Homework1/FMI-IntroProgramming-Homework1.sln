@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.RomanNumerals", "1.RomanNumerals\1.RomanNumerals.vcxproj", "{6AE7C84F-89F7-4611-8C53-A8D6A25F03CA}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.Rectangles", "6.Rectangles\6.Rectangles.vcxproj", "{8A5935F9-0BCF-499D-8173-81E2588C0B69}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.YinYang", "7.YinYang\7.YinYang.vcxproj", "{DD3257C8-9210-43E0-8092-C99EC5BF6688}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.Banknotes", "8.Banknotes\8.Banknotes.vcxproj", "{708059BA-B9B5-47E6-A717-846678979B23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,14 @@ Global
 		{DD3257C8-9210-43E0-8092-C99EC5BF6688}.Release|x64.Build.0 = Release|x64
 		{DD3257C8-9210-43E0-8092-C99EC5BF6688}.Release|x86.ActiveCfg = Release|Win32
 		{DD3257C8-9210-43E0-8092-C99EC5BF6688}.Release|x86.Build.0 = Release|Win32
+		{708059BA-B9B5-47E6-A717-846678979B23}.Debug|x64.ActiveCfg = Debug|x64
+		{708059BA-B9B5-47E6-A717-846678979B23}.Debug|x64.Build.0 = Debug|x64
+		{708059BA-B9B5-47E6-A717-846678979B23}.Debug|x86.ActiveCfg = Debug|Win32
+		{708059BA-B9B5-47E6-A717-846678979B23}.Debug|x86.Build.0 = Debug|Win32
+		{708059BA-B9B5-47E6-A717-846678979B23}.Release|x64.ActiveCfg = Release|x64
+		{708059BA-B9B5-47E6-A717-846678979B23}.Release|x64.Build.0 = Release|x64
+		{708059BA-B9B5-47E6-A717-846678979B23}.Release|x86.ActiveCfg = Release|Win32
+		{708059BA-B9B5-47E6-A717-846678979B23}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
