@@ -19,7 +19,7 @@ using namespace std;
 
 int main()
 {
-	int number;
+	unsigned int number;
 	string result;
 
 	//Enter number

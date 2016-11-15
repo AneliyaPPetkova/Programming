@@ -16,6 +16,18 @@
 #include <string>
 using namespace std;
 
+//Algorithm for rounding float number
+float roundFloatNumber(float number, int precision) {
+	float temp1;
+	float result;
+	int temp2;
+	
+	temp1 = number * pow(10, precision);
+	temp2 = (int)(temp1 + 0.5);
+	result = (float)((float)temp2 * pow(10, -precision));
+	return result;
+}
+
 int main()
 {
 	float x, y, A, B, C, D, E, F, 
@@ -35,13 +47,15 @@ int main()
 	determinant = (A*E - B*D);
 
 	//If nominators are 0 and denominators are 0, then the system has Many solutions
-	if ((trunc(xNominator) == 0 || trunc(yNominator) == 0) && trunc(determinant) == 0)
+	if ((roundFloatNumber(xNominator, 5) == 0 || 
+		roundFloatNumber(yNominator, 5) == 0) && 
+		roundFloatNumber(determinant, 5) == 0)
 	{
 		result = "Many solutions";
 		cout << result << endl;
 	}
 	//If denominators are 0, but nominators are different than 0, then the system has No solution
-	else if (trunc(determinant) == 0)
+	else if (roundFloatNumber(determinant, 5) == 0)
 	{
 		result = "No solution";
 		cout << result << endl;
@@ -52,8 +66,7 @@ int main()
 		x = xNominator / determinant;
 		y = yNominator / determinant;
 
-		std::cout.precision(5);
-		cout << x << " " << y << endl;
+		cout << roundFloatNumber(x, 5) << " " << roundFloatNumber(y, 5) << endl;
 	}
 
 	return 0;
